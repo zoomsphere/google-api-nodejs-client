@@ -1,1 +1,7 @@
-{"name":"google-api-nodejs-client","tagline":"Google's officially supported Node.js client library for using Google APIs. Support for authorization and authentication with OAuth 2.0, API Keys and JWT (Service Tokens) is included.","body":"<img src=\"https://avatars0.githubusercontent.com/u/1342004?v=3&s=96\" alt=\"Google Inc. logo\" title=\"Google\" align=\"right\" height=\"96\" width=\"96\"/>\r\n\r\n### google-api-nodejs-client API Reference Docs\r\n\r\n* [v2.1.7](http://google.github.io/google-api-nodejs-client/2.1.7/index.html)\r\n","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
+{
+  "name": "google-api-nodejs-client",
+  "tagline": "Google's officially supported Node.js client library for using Google APIs. Support for authorization and authentication with OAuth 2.0, API Keys and JWT (Service Tokens) is included.",
+  "body": "<img src=\"https://avatars0.githubusercontent.com/u/1342004?v=3&s=96\" alt=\"Google Inc. logo\" title=\"Google\" align=\"right\" height=\"96\" width=\"96\"/>\r\n\r\n### google-api-nodejs-client API Reference Docs\r\n\r\n* [v3.0.0](http://google.github.io/google-api-nodejs-client/3.0.0/index.html)\r\n* [v2.1.7](http://google.github.io/google-api-nodejs-client/2.1.7/index.html)\r\n",
+  "google": "",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
