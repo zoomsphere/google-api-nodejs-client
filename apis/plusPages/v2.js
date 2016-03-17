@@ -236,6 +236,34 @@ function Pluspages(options) {
     },
 
     /**
+     * plus.people.pages
+     *
+     * @desc Get a person's profile. If your app uses scope https://www.googleapis.com/auth/plus.login, this method is guaranteed to return ageRange and language.
+     *
+     * @alias plus.people.pages
+     * @memberOf! plusPages(v2)
+     *
+     * @param  {object} params - Parameters for request
+     * @param  {string} params.userId - The ID of the person to get the profile for. The special value "me" can be used to indicate the authenticated user.
+     * @param  {callback} callback - The callback that handles the response.
+     * @return {object} Request object
+     */
+    pages: function(params, callback) {
+      var parameters = {
+        options: {
+          url: 'https://www.googleapis.com/plusPages/v2/people/me/people/pages',
+          method: 'GET'
+        },
+        params: params,
+        requiredParams: ['key'],
+        pathParams: [],
+        context: self
+      };
+
+      return createAPIRequest(parameters, callback);
+    },
+
+    /**
      * plus.people.list
      *
      * @desc List all of the people in the specified collection.
