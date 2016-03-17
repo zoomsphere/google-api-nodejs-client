@@ -127,6 +127,7 @@ var APIs = {
   'pagespeedonline': requireAPI('pagespeedonline'),
   'plus': requireAPI('plus'),
   'plusDomains': requireAPI('plusDomains'),
+  'plusPages': requireAPI('plusPages'),
   'prediction': requireAPI('prediction'),
   'qpxExpress': requireAPI('qpxExpress'),
   'replicapool': requireAPI('replicapool'),
