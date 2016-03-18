@@ -251,12 +251,12 @@ function Pluspages(options) {
     pages: function(params, callback) {
       var parameters = {
         options: {
-          url: 'https://www.googleapis.com/plusPages/v2/people/me/people/pages',
+          url: 'https://www.googleapis.com/plusPages/v2/people/{userId}/people/pages',
           method: 'GET'
         },
         params: params,
-        requiredParams: ['key'],
-        pathParams: [],
+        requiredParams: ['userId','key'],
+        pathParams: ['userId'],
         context: self
       };
 
